@@ -1,22 +1,20 @@
-/* Estilo geral do aplicativo */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(28, 65, 187) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
-div {
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 300px;
+.container {
+  background: black;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  width: 350px;
 }
 
 h2 {
@@ -25,49 +23,38 @@ h2 {
 }
 
 label {
-  font-size: 18px;
+  font-weight: bold;
   color: #555;
 }
 
-select,
-input {
+select, input {
   width: 100%;
   padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  margin-top: 10px;
+  border: 1px solid #160ac4;
+  border-radius: 5px;
   font-size: 16px;
-}
-
-input[type="number"] {
-  -moz-appearance: textfield;
-  appearance: textfield;
-}
-
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+  box-sizing: border-box; 
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #0b05ae;
   color: white;
   border: none;
-  padding: 12px 20px;
-  border-radius: 4px;
-  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
   cursor: pointer;
   width: 100%;
-  transition: background-color 0.3s;
+  margin-top: 15px;
+  transition: background 0.3s;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #000099;
 }
 
 h3 {
-  margin-top: 20px;
-  font-size: 20px;
-  color: #333;
+  margin-top: 15px;
+  color: #2c13ef;
 }
